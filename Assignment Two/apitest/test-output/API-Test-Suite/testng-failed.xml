@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API-Test-Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GO-Rest-Api(failed)">
+    <classes>
+      <class name="tests.CreateUser">
+        <methods>
+          <include name="DeleteUser"/>
+          <include name="CreateUserWithSameEmail"/>
+        </methods>
+      </class> <!-- tests.CreateUser -->
+    </classes>
+  </test> <!-- GO-Rest-Api(failed) -->
+</suite> <!-- Failed suite [API-Test-Suite] -->
